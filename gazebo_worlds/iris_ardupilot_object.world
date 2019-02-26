@@ -535,6 +535,7 @@
       </link>
       <joint name='iris_demo::iris::rotor_2_joint' type='revolute'>
         <child>iris_demo::iris::rotor_2</child>
+  ]
         <parent>iris_demo::iris::base_link</parent>
         <axis>
           <xyz>0 0 1</xyz>
