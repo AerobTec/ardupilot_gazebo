@@ -535,7 +535,6 @@
       </link>
       <joint name='iris_demo::iris::rotor_2_joint' type='revolute'>
         <child>iris_demo::iris::rotor_2</child>
-  ]
         <parent>iris_demo::iris::base_link</parent>
         <axis>
           <xyz>0 0 1</xyz>
@@ -657,7 +656,7 @@
           </inertia>
         </inertial>
         <sensor name='chase_cam' type='camera'>
-          <pose frame=''>0 0 0 0 -1.1 0</pose>
+          <pose frame=''>0 0 0 0 0.6 0</pose>
           <camera name='__default__'>
             <horizontal_fov>1.2</horizontal_fov>
             <image>
@@ -912,10 +911,10 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>5212 960000000</sim_time>
-      <real_time>695 439942891</real_time>
-      <wall_time>1550769098 890478420</wall_time>
-      <iterations>512399</iterations>
+      <sim_time>5961 290000000</sim_time>
+      <real_time>12 400626454</real_time>
+      <wall_time>1553614420 700967786</wall_time>
+      <iterations>4176</iterations>
       <model name='ground_plane'>
         <pose frame=''>0 0 0 0 -0 0</pose>
         <scale>1 1 1</scale>
@@ -927,62 +926,62 @@
         </link>
       </model>
       <model name='iris'>
-        <pose frame=''>-0.009143 -0.017623 -0.000423 0.002127 -0 -0.020492</pose>
+        <pose frame=''>-2.65455 3.78558 -0.000228 0.000402 -0.000787 -0.246325</pose>
         <scale>1 1 1</scale>
         <link name='iris_demo::cam_link'>
-          <pose frame=''>-0.009151 -0.018049 0.199577 0.004202 1.04 -0.016868</pose>
-          <velocity>5.7e-05 7e-06 -2e-06 -1e-05 0.000105 -4.8e-05</velocity>
-          <acceleration>0.022684 0.00692 -0.001735 -0.022039 0.046094 -0.01793</acceleration>
-          <wrench>0.000227 6.9e-05 -1.7e-05 0 -0 0</wrench>
+          <pose frame=''>-2.65472 3.78554 0.199772 0.000794 1.03921 -0.245641</pose>
+          <velocity>0.010333 -0.008129 0 0 -0 0.06057</velocity>
+          <acceleration>-0.002334 0.005902 -1e-06 -4.3e-05 -3.1e-05 -1.79061</acceleration>
+          <wrench>-2.3e-05 5.9e-05 0 0 -0 0</wrench>
         </link>
         <link name='iris_demo::iris::base_link'>
-          <pose frame=''>-0.009151 -0.018038 0.1945 0.002127 -0 -0.020492</pose>
-          <velocity>4.7e-05 6e-06 -2e-06 -3.2e-05 0.000237 -2e-06</velocity>
-          <acceleration>0.018851 0.006105 -0.001631 -0.033913 0.095238 -0.000699</acceleration>
-          <wrench>0.028277 0.009157 -0.002446 0 -0 0</wrench>
+          <pose frame=''>-2.65471 3.78554 0.194695 0.000402 -0.000787 -0.246325</pose>
+          <velocity>0.010333 -0.008128 0 0 -0 0.06057</velocity>
+          <acceleration>-0.002388 0.006112 -1e-06 -0.508868 0.038694 -1.79059</acceleration>
+          <wrench>-0.003582 0.009169 -1e-06 0 -0 0</wrench>
         </link>
         <link name='iris_demo::iris::iris/ground_truth/odometry_sensorgt_link'>
-          <pose frame=''>-0.009151 -0.018038 0.1945 0.002127 -0 -0.020492</pose>
-          <velocity>5.7e-05 7e-06 -2e-06 -1.2e-05 0.000106 -5.5e-05</velocity>
-          <acceleration>0.022722 0.006917 -0.001765 -0.024039 0.046814 -0.024054</acceleration>
-          <wrench>0.003408 0.001038 -0.000265 0 -0 0</wrench>
+          <pose frame=''>-2.65471 3.78554 0.194695 0.000402 -0.000787 -0.246325</pose>
+          <velocity>0.010333 -0.008128 0 0 -0 0.06057</velocity>
+          <acceleration>-0.002383 0.006115 -1e-06 0.036964 -0.009329 -1.79051</acceleration>
+          <wrench>-0.000357 0.000917 0 0 -0 0</wrench>
         </link>
         <link name='iris_demo::iris::iris/imu_link'>
-          <pose frame=''>-0.009151 -0.018038 0.1945 0.002127 -0 -0.020492</pose>
-          <velocity>5.7e-05 7e-06 -2e-06 -1.2e-05 0.000106 -4.4e-05</velocity>
-          <acceleration>0.022617 0.006874 -0.001754 -0.024022 0.046768 -0.014876</acceleration>
-          <wrench>0.003393 0.001031 -0.000263 0 -0 0</wrench>
+          <pose frame=''>-2.65471 3.78554 0.194695 0.000402 -0.000787 -0.246325</pose>
+          <velocity>0.010333 -0.008128 0 0 -0 0.06057</velocity>
+          <acceleration>-0.002383 0.006114 -1e-06 0.036964 -0.009329 -1.79051</acceleration>
+          <wrench>-0.000357 0.000917 0 0 -0 0</wrench>
         </link>
         <link name='iris_demo::iris::rotor_0'>
-          <pose frame=''>0.116313 -0.240704 0.217031 0.00188 -0.000996 0.466564</pose>
-          <velocity>4.8e-05 1e-06 -1.3e-05 -1.2e-05 0.000126 -4e-06</velocity>
-          <acceleration>0.019481 0.005061 -0.002446 0.33299 0.22277 -0.000601</acceleration>
-          <wrench>0.000487 0.000127 -6.1e-05 0 -0 0</wrench>
+          <pose frame=''>-2.5823 3.54047 0.217709 0.000296 -0.000833 -0.115677</pose>
+          <velocity>0.025177 -0.003744 0 0.015648 0.0036 0.746166</velocity>
+          <acceleration>11.8773 3.51533 1.3e-05 2.83677 0.925139 -3.08731</acceleration>
+          <wrench>0.296932 0.087883 0 0 -0 0</wrench>
         </link>
         <link name='iris_demo::iris::rotor_1'>
-          <pose frame=''>-0.135027 0.184534 0.217925 0.000411 -0.002087 1.35605</pose>
-          <velocity>6.9e-05 1.4e-05 9e-06 -1.2e-05 0.000119 -4e-06</velocity>
-          <acceleration>0.027335 0.009705 -0.000556 0.172909 0.851227 0.00071</acceleration>
-          <wrench>0.000683 0.000243 -1.4e-05 0 -0 0</wrench>
+          <pose frame=''>-2.73204 4.01119 0.217673 -0.000843 -0.000266 1.49151</pose>
+          <velocity>-0.003335 -0.012811 0 0.015648 0.0036 0.746167</velocity>
+          <acceleration>-10.9414 -3.74149 -1.4e-05 -2.94463 -0.203516 -3.09193</acceleration>
+          <wrench>-0.273535 -0.093537 0 0 -0 0</wrench>
         </link>
         <link name='iris_demo::iris::rotor_2'>
-          <pose frame=''>0.125328 0.199203 0.217968 0.000181 0.00212 -1.50626</pose>
-          <velocity>7e-05 1e-06 -1.9e-05 -1.2e-05 0.000102 -4e-06</velocity>
-          <acceleration>0.027514 0.004905 -0.012949 -0.048158 0.769623 0.000553</acceleration>
-          <wrench>0.000688 0.000123 -0.000324 0 -0 0</wrench>
+          <pose frame=''>-2.47501 3.96719 0.217886 0.000252 0.000847 -2.62626</pose>
+          <velocity>-0.000669 0.002757 0 0.015648 0.0036 0.746165</velocity>
+          <acceleration>-8.80744 8.71777 -4e-06 -0.749037 -0.456911 0.054561</acceleration>
+          <wrench>-0.220186 0.217944 0 0 -0 0</wrench>
         </link>
         <link name='iris_demo::iris::rotor_3'>
-          <pose frame=''>-0.143223 -0.215381 0.217074 0.000771 -0.001983 1.17944</pose>
-          <velocity>5e-05 1.4e-05 1.4e-05 -1.1e-05 0.000132 -4e-06</velocity>
-          <acceleration>0.02001 0.009693 0.008876 0.321653 0.840108 0.000744</acceleration>
-          <wrench>0.0005 0.000242 0.000222 0 -0 0</wrench>
+          <pose frame=''>-2.82958 3.62327 0.217512 -0.000571 0.000675 2.66584</pose>
+          <velocity>0.020161 -0.018721 0 0.015648 0.0036 0.746165</velocity>
+          <acceleration>7.8629 -8.47099 1e-06 -1.48358 0.546325 0.052986</acceleration>
+          <wrench>0.196573 -0.211775 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='new_ar'>
-        <pose frame=''>4.24434 0.007538 0.52321 3.12981 -0.030924 -3.14123</pose>
+        <pose frame=''>2 2 0.08696 2.19116 1.55632 2.19121</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>4.24434 0.007538 0.52321 3.12981 -0.030924 -3.14123</pose>
+          <pose frame=''>2 2 0.08696 2.19116 1.55632 2.19121</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 0 0 -0 0</acceleration>
           <wrench>0 0 0 0 -0 0</wrench>
@@ -994,7 +993,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>7.83991 -0.832214 2.12763 0 0.485796 2.95915</pose>
+        <pose frame=''>8.15858 0.946091 30.3152 0 1.3058 3.06</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>

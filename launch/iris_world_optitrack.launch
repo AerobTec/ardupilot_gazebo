@@ -28,5 +28,9 @@
         name="origin_publisher"
         output="screen">
     </node>
+    
+    <!-- Launch the Apriltag detection -->
+    <include file ="$(find ardupilot_gazebo)/launch/continuous_detection.launch">
+    </include>
 
 </launch>
