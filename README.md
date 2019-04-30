@@ -91,6 +91,12 @@ Launch the multi-agent gazebo file
 ```
 roslaunch ardupilot_gazebo multi_agent_iris.launch
 ```
+### Apriltag Searching Demo
+
+To run the apriltag searching demo:
+```
+rosrun ardupilot_gazebo apriltag_demo.py
+```
 
 ### Explore simple commands with mavros
 
